@@ -1,0 +1,72 @@
+/*seletor tag, onde selecionamos o elemento pelo seu nome dentro do HTML*/
+
+/* o RGB é um modelo de cores baseado na combinação das seguintes cores:
+R: red - vermelho
+G: green - verde 
+B: blue - azul 
+Usamos esse modelo para representar cores em telas(monitores,tvs,celulares e navegadores web)*/
+h1{color: rgb(255, 0, 0); text-align: center;}
+
+/* rtl- right to left
+ltr- left to right 
+serve para acessibilidade multipais - o end pro right */
+p{text-align: justify; direction: ltr;color: rgb(255, 255,255);}
+
+body{background-color: rgb(14, 14, 14);}
+
+/* coloquei o nome ultizando a tag id na pagina e apliquei aqui usando a hashtag # */
+#paragrafo-footer {text-align: center;}
+
+/*quando colocar a tag class ultizar ponto(.) ao inves de # */
+.paragrafo-section { color:gold;}
+
+section { background-color: dodgerblue;}
+
+/* Seletor descendente - onde selecionamos todos os elementos que são descendentes do primeiro, ou seja, elementos filhos*/
+section h2 {color:beige; background-color: blueviolet;}
+
+body {background-color: darkblue; font-family:sans-serif ;}
+
+header{ background-color: yellowgreen; text-transform: capitalize;}
+
+header h1 { background-color: lime; width: 200px;
+
+  /* para  deixar o texto minusculo */
+  text-transform: lowercase;
+
+  /* Para deixar o texto maiusculo */
+  text-transform: uppercase;
+
+  /* Para deixar a primeira letra de cada palavra maiuscula */
+  text-transform: capitalize;
+}
+
+main{background-color: violet;}
+
+main section{text-align: center;}
+
+main section p {text-align: center;}
+
+section h2 {
+  /* padding-top: 20px; */
+  /* padding-left: 20px; */
+  /* padding-bottom: 20px; */
+  /* padding-right: 20px; */
+
+  /* shorthand - atalho*/
+
+  /* aplica em todas a direções (top, left, right, bottom) */
+  /* padding: 20px; */
+
+  /* padding - preenchimento */
+  
+  /*  top/bottom | left/right   */
+  padding: 20px 10px;
+
+  /* border-borda   espessura / tipo de borda/ cor da borda  */
+  border: 3px solid black;
+
+/* margin-margem */
+  margin-top: 10px;
+  margin-left: 40px;
+}
